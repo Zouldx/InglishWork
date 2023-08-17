@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,200;1,300;1,400&family=Satisfy&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF52A2;
+    gap: 25%;
+}
+
+.buttons{
+    font-family: 'Satisfy', cursive;
+    font-weight: 350;
+    font-size: 42.5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons:hover{
+    color: #FFD1DA;
+}
+
+.principal_title{
+    font-family: 'Satisfy', cursive;
+    font-weight: 700;
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    margin-left: -115px;
+}
+
+.container{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-descripcion{
+    width: 100vw;
+    height: 852px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one_descripcion p{
+    width: 50%;
+    border: solid #FF52A2;
+    border-radius: 25px;
+}
+
+.one_descripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: -105px;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.two_descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.text_descripcion{
+    width: auto;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 25px;
+    border: solid #FF52A2;
+    padding: 2%;
+}
+
+.barbie{
+    width: 50rem;
+    margin-top: -41rem;
+    margin-left: -5rem;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-game{
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    font-weight: 350;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #F11A7B;
+    color: white;
+    margin-top: 35px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.text-button{
+    font-family: 'Satisfy', cursive;
+}
+
+
+.button-game:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFD1DA;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.title-participants{
+    height: 5rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    margin-top: 55px;
+    background-color: #F11A7B;
+    color: white;
+}
+
+.integrants{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 25px;
+    margin: 35px;
+    margin-top: 35px;
+    margin-left: -15px;
+    padding: 10px;
+    width: 400px;
+    height: 450px;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    position: relative;
+    pointer-events:stroke;
+}
+
+.integrants img{
+    border-radius: 25px;
+    margin: 25px;
+    border: solid #F11A7B;
+}
+
+.participants{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.participants img{
+    width: 350px;
+    height: 500px;
+}
+
+.first-photo, .second-photo{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.second-photo{
+    transform: rotateY(180deg);
+}
+
+.integrants:hover{
+    transform: rotateY(180deg);
+}
+
+.names{
+    z-index: 1;
+}
+
